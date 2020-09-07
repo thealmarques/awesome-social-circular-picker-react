@@ -1,0 +1,26 @@
+.picker {
+    position: relative;
+    cursor: pointer;
+
+    &__item {
+        position: absolute;
+        cursor: pointer;
+        transition: transform .2s ease-in-out, opacity 2s ease-in-out;
+
+        &:hover {
+            transform: scale(2);
+        }
+
+        &-active {
+            animation: flip;
+            animation-duration: 1.5s;
+        }
+
+        &-inactive {
+            animation: fadeOut;
+            animation-duration: 0.8s;
+
+            opacity: 0;
+        }
+    }
+}

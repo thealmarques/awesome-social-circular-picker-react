@@ -2,9 +2,12 @@
 
 **Table of Contents**
 
-[TOCM]
-
-[TOC]
+- [Awesome Social Picker](#awesome-social-picker)
+  * [What is](#what-is)
+  * [Example](#example)
+  * [How to run](#how-to-run)
+  * [Usage](#usage)
+  * [Contribution](#contribution)
 
 ## What is
 - Project that implements a circular picker component animated using [Animate.css](https://animate.style/ "Animate.css")
@@ -12,7 +15,7 @@
 
 ## Example
 
-<img src="resources/social-picker.gif" height="50%" width="80%"/>
+<img src="resources/social-picker.gif" height="40%" width="40%"/>
 
 ## How to run
 
@@ -25,8 +28,9 @@ npm start
 
 ## Usage
 ```javascript
-	<Picker items={['facebook', 'gmail', 'instagram', 'linkedin', 'tiktok', 'whatsapp', 'twitter', 'youtube']}>
-	</Picker>
+<Picker
+	items={['facebook', 'gmail', 'instagram', 'linkedin', 'tiktok', 'whatsapp', 'twitter', 'youtube']}>
+</Picker>
 ```
 
 ## Contribution

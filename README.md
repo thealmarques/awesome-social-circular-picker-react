@@ -8,8 +8,8 @@
   * [Contribution](#contribution)
 
 ## What is
-- Project that implements a circular picker component animated using [Animate.css](https://animate.style/ "Animate.css")
-- Used a social picker as an example. It can be used for any need.
+
+- Project that implements a circular picker component using [Animate.css](https://animate.style/ "Animate.css"). This project in particular implements a social picker, but the logic can be used to any circular component.
 
 ## Example
 

@@ -1,7 +1,5 @@
 # Awesome Social Picker
 
-**Table of Contents**
-
 - [Awesome Social Picker](#awesome-social-picker)
   * [What is](#what-is)
   * [Example](#example)

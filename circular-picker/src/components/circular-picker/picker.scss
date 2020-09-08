@@ -1,11 +1,19 @@
 .picker {
     position: relative;
     cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
 
     &__item {
         position: absolute;
         cursor: pointer;
         transition: transform .2s ease-in-out, opacity 2s ease-in-out;
+        width: 18px;
+        height: 18px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0;
 
         &:hover {
             transform: scale(2);
@@ -14,13 +22,12 @@
         &-active {
             animation: flip;
             animation-duration: 1.5s;
+            opacity: 1;
         }
 
         &-inactive {
             animation: fadeOut;
             animation-duration: 0.8s;
-
-            opacity: 0;
         }
     }
 }
